@@ -1,0 +1,6 @@
+spring: 
+    datasource: 
+        url: jdbc:mysql://localhost/fullstack-course
+        username: root
+        password: Thz192900
+    

@@ -1,0 +1,93 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #d9d9d9;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2vh;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #d9d9d9;
+  flex-grow: 0;
+  height: 95vh;
+  width: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3 ease-in-out;
+  border-radius: 10vh;
+  height: 2vh;
+  cursor: pointer;
+}
+
+.link:hover {
+    background-color: rgb(191, 221, 246);
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 7vh;
+  padding-top: 7vh;
+}
+
+.main_card {
+    background-color: #d9d9d9;
+    height: 30vh;
+    width: 45vh;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.main_card:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    background-color: #818080;
+}
+
+
+.cards {
+    height: 30vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_item {
+    background-color: #d9d9d9;
+    border-radius: 2vh;
+    height: 12vh;
+    text-align: center;
+}
+
+
