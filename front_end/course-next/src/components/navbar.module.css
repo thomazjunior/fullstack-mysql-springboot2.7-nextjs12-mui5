@@ -1,0 +1,5 @@
+.header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
