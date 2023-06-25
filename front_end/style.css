@@ -90,4 +90,26 @@ body {
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .sidebar {
+    min-width: 10vh;
+  }
+
+  .content {
+    padding-inline: 10vh;
+  }
+
+  .main-card {
+    margin: 10px;
+  }
+
+  .cards {
+    margin: 10px;
+    flex-direction: row;
+  }
+  
+  .card_item {
+    min-width: 40vh;
+  }
+}
 
