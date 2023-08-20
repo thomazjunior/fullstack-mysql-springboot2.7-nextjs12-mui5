@@ -1,6 +1,7 @@
 spring: 
     datasource: 
-        url: jdbc:mysql://localhost/fullstack-course
+        url: jdbc:mysql://localhost/spring-security
         username: root
         password: Thz192900
+    
     

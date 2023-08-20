@@ -3,3 +3,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+.navItem {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.navItem a {
+    font-size: 2vh;
+    font-family: cursive;
+}
